@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display");
 html {
   width: 100%;
   height: 100%;
@@ -147,7 +148,8 @@ p {
   color: #00e0d0;
   text-transform: uppercase;
   border-radius: 2px;
-  padding: 14px 15px; }
+  padding: 14px 15px;
+  cursor: pointer; }
 
 /*_______________________section1_________________*/
 .section1 {
@@ -200,6 +202,56 @@ p {
   text-transform: uppercase;
   font-family: Roboto;
   font-size: 1em; }
+
+/*_______________________section3_________________*/
+.section3 {
+  width: 100%;
+  height: 754px; }
+
+.section3-title {
+  text-align: center;
+  margin-top: 70px; }
+  .section3-title .main-line {
+    margin-bottom: 60px; }
+
+.section3-title-name {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-family: PlayfairDisplay;
+  font-size: 1.375em;
+  font-weight: bold; }
+
+.section3-title-text {
+  margin-bottom: 20px;
+  color: #8d8c90;
+  font-family: PlayfairDisplay;
+  font-size: 0.875em; }
+
+.section3-item .col-4 {
+  text-align: center; }
+
+.link {
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+  border-bottom: 2px solid #ebebeb; }
+
+.section3-image {
+  margin-bottom: 35px; }
+
+.image-brand {
+  padding-bottom: 8px; }
+
+.colums-title {
+  text-transform: uppercase;
+  margin-bottom: 25px;
+  font-family: Roboto;
+  font-size: 0.875em;
+  font-weight: bold; }
+
+.colums-text {
+  color: #b8b8b8;
+  font-family: Roboto;
+  font-size: 0.875em; }
 
 /*_____________________footer_____________________*/
 .footer {
