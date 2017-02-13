@@ -133,7 +133,8 @@ p {
 /*_____________________header_____________________*/
 .header {
   height: 670px;
-  background: url(../img/header-img.png); }
+  background: url(../img/header-img.png);
+  background-size: cover; }
 
 .header-top {
   padding-top: 16px;
@@ -207,6 +208,7 @@ p {
 /*_______________________section2_________________*/
 .section2 {
   background: url(../img/section2-img.png);
+  background-size: cover;
   height: 550px; }
 
 .section2-colum {
@@ -290,7 +292,8 @@ p {
 .section4 {
   width: 100%;
   height: 710px;
-  background: url(../img/section4-img.png); }
+  background: url(../img/section4-img.png);
+  background-size: cover; }
 
 .section4-title {
   text-align: center;
@@ -336,6 +339,7 @@ p {
 /*_____________________footer_____________________*/
 .footer {
   background: #4f3f74 url(../img/footer-img.png);
+  background-size: cover;
   width: 100%;
   height: 400px;
   margin-top: -400px;
